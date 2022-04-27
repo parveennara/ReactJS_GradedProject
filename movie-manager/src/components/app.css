@@ -1,0 +1,40 @@
+body {
+  margin: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  background-image: url("../../public/cinema.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heading {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.heading p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.text-xs {
+  font-size: 0.65rem;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+img {
+  aspect-ratio: 7/10;
+}
